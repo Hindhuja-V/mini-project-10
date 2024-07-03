@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Texturina&display=swap');
+
+body {
+    background-image: radial-gradient( circle farthest-corner at 50.3% 44.5%,  rgba(116,147,179,1) 0%, rgba(62,83,104,1) 100.2% );
+    box-sizing: border-box;
+    font-family: 'Texturina', serif;
+}
+#wrapper {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    font-family: 'Texturina', serif;
+    font-size: 20px;
+    color: white;
+}
+#wrapper > div {
+    width: 350px;
+    box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.4);
+    border-radius: 5px;
+    background-color: #f1f1f1;
+    color: darkslategray;
+    margin: 10px;
+    padding: 20px;
+    text-align: center;
+    position: relative;
+}
+img {
+    margin-bottom: 30px;
+}
+#techStack {
+    position: absolute;
+    bottom: 5px;
+    left: 0;
+    right: 0;
+}
+button {
+    font-family: 'Texturina', serif;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    background-image: radial-gradient( circle farthest-corner at -4% -12.9%,  rgba(74,98,110,1) 0.3%, rgba(30,33,48,1) 90.2% );
+    color: white;
+    width: 100px;
+    height: 30px;
+}
+h1{
+    text-align: center;
+    color: #f1f1f1;
+    font-size: 36px;
+}
+footer {
+    text-align: center;
+    color: #f1f1f1;
+}
+a {
+    text-decoration: none;
+}
